@@ -94,7 +94,7 @@ class local_arsnova_connector_external extends external_api {
     }
 
     /**
-     * Returns users courses
+     * Returns the role the user has in that course
      * @return array courses
      */
     public static function get_user_role_in_course($username, $courseid) {
@@ -158,7 +158,7 @@ class local_arsnova_connector_external extends external_api {
     }
 
     /**
-     * Returns users courses
+     * Returns usernames of the users enrolled in the given course
      * @return array courses
      */
     public static function get_course_users($courseid) {
